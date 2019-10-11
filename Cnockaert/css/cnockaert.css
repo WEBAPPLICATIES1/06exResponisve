@@ -1,0 +1,48 @@
+/* Stijlregels voor de smartphone + tablet weergave */
+
+body {
+    background-color: #ececec;
+    color: #4b4a4a;
+    font-family: Verdana, Arial, sans-serif;
+    padding: 15px;
+    background-color: #fff;
+}
+
+h1 {
+    color: #004990;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin: 15px 0 15px 0;
+}
+
+h3 {
+    margin: 0.1em 0 0 0;
+    color: #004990;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004990;
+    padding: .1em;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    clear: both;
+}
+
+figure > img {
+    max-width: 80%;
+}
+
+
+/* Opmaak en layout smartphone tablet weergave */
+
+
+/* Opmaak en layout desktop weergave */
