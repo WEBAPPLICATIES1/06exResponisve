@@ -43,56 +43,53 @@ Het project bevat reeds de pagina index.html en de volgende mappen:
 
 In deze oefening moet je zelf de mobile first responsive website maken die in de onderstaande figuren staat afgebeeld. De zwarte randen in deze figuren zijn enkel om de elementen duidelijker af te bakenen.
 
-1. Deze website is mobile first responsive. Begin daarom met het maken van de smartphone / tablet weergave. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
-2. De weergave verandert wanneer de breedte van het scherm groter wordt dan 768px.
-3. Maak uitsluitend gebruik van float–layout om de website te maken.
-4. Maak zo weinig mogelijk gebruik van id’s.
-5. Sommige opmaakkenmerken zijn al gegeven
+- Deze website is mobile first responsive. Begin daarom met het maken van de smartphone / tablet weergave. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
+- De weergave verandert wanneer de breedte van het scherm groter wordt dan 768px.
+- Maak uitsluitend gebruik van float–layout om de website te maken.
+- Maak zo weinig mogelijk gebruik van id’s.
+- Sommige opmaakkenmerken zijn al gegeven:
+    - Als we een breedte instellen, dan slaat die breedte op de content, de padding en de border, niet enkel op de content
+    - De maximumbreedte voor alle afbeeldingen is 100%
+    - Het gebruikte lettertype is Verdana of Arial. Het is sowieso een schreefloos lettertype.
+    - De line-heigt is 2.
+    - De tekstkleur is dimgray
 
-- Als we een breedte instellen, dan slaat die breedte op de content, de padding en de border, niet enkel op de content
-- De maximumbreedte voor alle afbeeldingen is 100%
-- Het gebruikte lettertype is Verdana of Arial. Het is sowieso een schreefloos lettertype.
-- De line-heigt is 2.
-- De tekstkleur is dimgray
+### Algemene opmaakkenmerken
 
-**Algemene opmaakkenmerken**
+- De achtergrondafbeelding is background.gif
+- Het oranje dat her en der in de webpagina gebruikt wordt is `#DE5728`.
+- De menu – items zijn:
+    - Home
+    - Producten 
+    - Prijslijst 
+    - Contact
 
-6. De achtergrondafbeelding is background.gif
-7. Het oranje dat her en der in de webpagina gebruikt wordt is #DE5728
-8. De menu – items zijn: Home / Producten / Prijslijst / Contact
+### Opmaakkenmerken van de smartphone / tablet weergave
 
-**Enkele opmaakkenmerken van de smartphone / tablet weergave**
-
-9. Het logo is logo-esthetiek-beaute.jpg. Het logo is gecentreerd en heeft afgeronde hoeken.
-10. Het menu neemt 90% van de volledige breedte in en heeft afgeronde hoeken. De menu items nemen ook 90% van de volledige breedte in en hebben een oranje tekstkleur. Als over een menu item gehovered wordt, komt de tekst in vet
+- Het logo is `logo-esthetiek-beaute.jpg`. Het logo is gecentreerd en heeft afgeronde hoeken.
+- Het menu neemt 90% van de volledige breedte in en heeft afgeronde hoeken. De menu items nemen ook 90% van de volledige breedte in en hebben een oranje tekstkleur. Als over een menu item gehovered wordt, komt de tekst in vet
 
     ![](images/rwd04.png)
 
-11. Zoals de te zien op de voorbeelden, is er een kleine doorzichtige rand rondom de elementen. De inhoud van de elementen staat niet tegen de rand geplakt
-12. Welkom bij Esthetiek Beauté / Weet wat uw huid nodig heeft … / Beauté cadeaubon zijn h2 elementen met een oranje kleur en 20px groot
-13. De inhoud van de footer is gecentreerd
+- Zoals de te zien op de voorbeelden, is er een kleine doorzichtige rand rondom de elementen. De inhoud van de elementen staat niet tegen de rand geplakt
+- Welkom bij Esthetiek Beauté / Weet wat uw huid nodig heeft … / Beauté cadeaubon zijn `H2` elementen met een oranje kleur en 20px groot
+- De inhoud van de footer is gecentreerd
 
-**Enkele opmaakkenmerken van de desktop weergave**
+### Opmaakkenmerken van de desktop weergave
 
-14. De maximum breedte van de webpagina is 900px. De inhoud van de webpagina is gecentreerd
-15. Maak gebruik van margin-left om de navigatiebalk rechts te plaatsen. Maak gebruik van een percentage.
-16. De links hebben een grijze (#666) tekstkleur.
-
-- Als over een menu – item gehovered wordt, komt de tekst in zwart
-  De link van de actieve pagina staat in oranje
-  17 Het is belangrijk dat alles netjes uitgelijnd staat.
-- Respecteer de afmetingen zoals op de onderstaande figuur opgegeven, maar maak gebruik van percentages. Deze figuur geeft schematisch een deel van de webpagina weer. De afmetingen zijn geldig voor het geval de breedte van het centrale gedeelte 900px is
-- De breedte van het logo moet je niet instellen, want dit is 300px
-- Omdat de top-margin en de bottom-margin berekend worden op basis van de breedte en omdat dit niet tot een column – drop kan leiden, kan je hier beter gebruik maken van em’s
-  ![](images/rwd05.png)
+- De maximum breedte van de webpagina is 900px. De inhoud van de webpagina is gecentreerd
+- Maak gebruik van margin-left om de navigatiebalk rechts te plaatsen. Maak gebruik van een percentage.
+-  De links hebben een grijze `#666` tekstkleur.
+- Als over een menu – item gehovered wordt, komt de tekst in het zwart te staan.
+- De link van de actieve pagina staat in oranje
+- Het is belangrijk dat alles netjes uitgelijnd staat.
+    - Het linkse gedeelte is 30% breed, het rechtse is 70% van de totale breedte.
 
 ### **Smartphone en tablet weergave**
-
-![](images/rwd06.png)
+<img src="images/rwd06.png" alt="Mobile" width="50%" >
 
 ### **Desktop weergave**
-
-![](images/rwd07.png)
+<img src="images/rwd07.png" alt="Desktop" >
 
 ---
 

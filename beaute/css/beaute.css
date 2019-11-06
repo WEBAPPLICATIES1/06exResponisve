@@ -56,7 +56,7 @@ a {
 header img{
    border-radius: 20px;
    display: block;
-   //centreren
+   /* centreren */
 }
 
 article{
@@ -78,5 +78,5 @@ footer{
    background-color: #DE5728;
    text-align: center;
    color: white;
-  //altijd onderaan
+  /* altijd onderaan */
 }
