@@ -1,10 +1,7 @@
 # Oefeningen hoofdstuk 6: Responsive
-
-Download of clone deze repository. Hiervoor klik je op de groene knop.
-
-Pak deze zip uit in de map waar je alle leermateriaal van Webapplicaties I plaatst.
-
-Ga nu naar Visual Studio Code en open deze map.
+1. Download of clone deze repository. Hiervoor klik je op de groene knop.
+2. Pak deze zip uit in de map waar je alle leermateriaal van Webapplicaties I plaatst.
+3. Ga nu naar Visual Studio Code en open deze map.
 
 ## OEFENING 1: Cnockaert.
 
@@ -12,26 +9,28 @@ Open de map **Cnockaert**:
 
 In deze oefening moet je zelf de website maken die in de onderstaande figuren staat afgebeeld. Exacte waarden voor kleuren, padding en margin zijn in deze oefening van minder belang. De essentie is dat de structuur correct is en dat je tot een mobile first responsive website komt.
 
-- Deze website is mobile first responsive. Begin daarom met het maken van de smartphone / tablet weergave. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
+- Deze website is mobile first responsive. Begin daarom met het maken van de kleinste schermgrotes: smartphone / tablet. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
 - De weergave verandert wanneer de breedte van het scherm groter wordt dan 990px.
-- Maak uitsluitend gebruik van float–layout om de website te maken.
-- Garage Cnockaert + Aanbiedingen => h1.
-- Officiële dealer van / Kia, 7 jaar garantie / Contact / Fiat 500 C / Fiat Panda / Fiat Qubo => h3
+- Maak **uitsluitend** gebruik van float–layout om de website te maken.
+- H1
+    - Garage Cnockaert
+    - Aanbiedingen
+- H3 
+    - Officiële dealer van... 
+    - Kia, 7 jaar garantie 
+    - Contact 
+    - Namen van de autotypes (Fiat 500 C / Fiat Panda / Fiat Qubo)
 
 ### **Smartphone en tablet weergave**
-
-![](images/rwd01.png)
-![](images/rwd02.png)
+<img src="images/rwd01.png" alt="Mobile" width="50%" >
 
 ### **Desktop weergave**
-
-![](images/rwd03.png)
-
-**Enkele opmaakkenmerken van de desktop weergave**
 
 - Het centrale gedeelte heeft een breedte van 890px en is gecentreerd.
 - De breedte van het linkse gedeelte is 75% van de totale breedte.
 - De maximum breedte van elk van de 3 afbeeldingen van de auto’s is 195px
+
+<img src="images/rwd02.png" alt="Desktop" >
 
 ---
 
