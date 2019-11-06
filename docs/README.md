@@ -25,10 +25,10 @@ In deze oefening moet je zelf de website maken die in de onderstaande figuren st
 <img src="images/rwd01.png" alt="Mobile" width="50%" >
 
 ### **Desktop weergave**
-
-- Het centrale gedeelte heeft een breedte van 890px en is gecentreerd.
 - De breedte van het linkse gedeelte is 75% van de totale breedte.
-- De maximum breedte van elk van de 3 afbeeldingen van de auto’s is 195px
+- De breedte van het rechtse gedeelte is 20% van de totale breedte.
+- De maximum breedte van elk van de 3 afbeeldingen van de auto’s is 195px, elk `figure` element heeft een breedte van 30%.
+    - Uitsluitend in de desktop versie, de tablet of phone versie is dit 90% van de maximum breedte.
 
 <img src="images/rwd02.png" alt="Desktop" >
 
