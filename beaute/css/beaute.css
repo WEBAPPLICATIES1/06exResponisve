@@ -9,7 +9,6 @@ time, mark, audio, video {
    font-size: 100%;
    vertical-align: baseline;
 }
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
    display: block;
 }
@@ -27,18 +26,13 @@ ul {
 table {
    border-collapse: collapse;
    border-spacing: 0;
-} 
-
+}
 * {
-   -moz-box-sizing: border-box;
    box-sizing: border-box;	
 }
 
 /* end reset browser styles */
 
-img{
-   max-width: 100%;
-}
 
 body {
    font-family: Verdana, Arial, sans-serif;
@@ -47,18 +41,17 @@ body {
    color: dimgray;
    background: url('../images/background.gif');
 }
-
+img{
+   max-width: 100%;
+}
 a {
    text-decoration: none;
    color: #DE5728;
 }
-
 header img{
    border-radius: 20px;
    display: block;
-   /* centreren */
 }
-
 article{
    margin: 0.5em;
    padding: 0.5em;
@@ -70,7 +63,7 @@ h2{
    margin-bottom: .25em;
    font-size: 1.25em
 }
-#kerstkrans{
+article img:first-child{
    float: left;
    margin-right: 1em;
 }
@@ -78,5 +71,4 @@ footer{
    background-color: #DE5728;
    text-align: center;
    color: white;
-  /* altijd onderaan */
 }

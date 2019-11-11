@@ -7,30 +7,21 @@
 
 Open de map **Cnockaert**:
 
-In deze oefening moet je zelf de website maken die in de onderstaande figuren staat afgebeeld. Exacte waarden voor kleuren, padding en margin zijn in deze oefening van minder belang. De essentie is dat de structuur correct is en dat je tot een mobile first responsive website komt.
+Zorg ervoor dat deze webpagina mobile-first responsive is. De body van de index.html is definitief en mag niet gewijzigd worden.
+Gebruik waar nodig enkel relatieve eenheden. Zorg ervoor dat voor bepaalde elementen de box-sizing de waarde border-box (width = content+padding+border) heeft. 
 
-- Deze website is mobile first responsive. Begin daarom met het maken van de kleinste schermgrotes: smartphone / tablet. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
-- De weergave verandert wanneer de breedte van het scherm groter wordt dan 990px.
-- Maak **uitsluitend** gebruik van float–layout om de website te maken.
-- H1
-    - Garage Cnockaert
-    - Aanbiedingen
-- H3 
-    - Officiële dealer van... 
-    - Kia, 7 jaar garantie 
-    - Contact 
-    - Namen van de autotypes (Fiat 500 C / Fiat Panda / Fiat Qubo)
+- Pas de css aan in cnockaert.css. Voeg de geapste stijlregels toe zodat de webpagina correct wordt weergegeven op de kleinste schermgrootte: smartphone / tablet. 
+- Voeg daarna de stijlregels toe om de correcte weergave te hebben op schermen met een breedte groter dan 990px.
+- Maak **uitsluitend** gebruik van **float layout**.
 
 ### **Smartphone en tablet weergave**
-<img src="images/rwd01.png" alt="Mobile" width="50%" >
+<img src="images/rwd01.png" alt="Mobile" width="50%" style="border:1px solid black">
 
 ### **Desktop weergave**
 - De breedte van het linkse gedeelte is 75% van de totale breedte.
-- De breedte van het rechtse gedeelte is 20% van de totale breedte.
-- De maximum breedte van elk van de 3 afbeeldingen van de auto’s is 195px, elk `figure` element heeft een breedte van 30%.
-    - Uitsluitend in de desktop versie, de tablet of phone versie is dit 90% van de maximum breedte.
+- De breedte van het rechtse gedeelte is 25% van de totale breedte.
 
-<img src="images/rwd02.png" alt="Desktop" >
+<img src="images/rwd02.png" alt="Desktop" width="90%" style="border:1px solid black">
 
 ---
 
@@ -41,19 +32,17 @@ Het project bevat reeds de pagina index.html en de volgende mappen:
 - css: bevat het bestand beaute.css.
 - images: bevat de afbeeldingen
 
-In deze oefening moet je zelf de mobile first responsive website maken die in de onderstaande figuren staat afgebeeld. De zwarte randen in deze figuren zijn enkel om de elementen duidelijker af te bakenen.
+In deze oefening moet je zelf de mobile first responsive website maken die in de onderstaande figuren staan afgebeeld. De zwarte randen in deze figuren zijn enkel om de elementen duidelijker af te bakenen.
 
-- Deze website is mobile first responsive. Begin daarom met het maken van de smartphone / tablet weergave. Voeg pas daarna de stijlregels toe om te veranderen naar desktop weergave.
-- De weergave verandert wanneer de breedte van het scherm groter wordt dan 768px.
-- Maak uitsluitend gebruik van float–layout om de website te maken.
-- Maak zo weinig mogelijk gebruik van id’s.
-- Sommige opmaakkenmerken zijn al gegeven:
+- Deze website is mobile first responsive. De css bevat reeds alle algemene stijlregels:
     - Als we een breedte instellen, dan slaat die breedte op de content, de padding en de border, niet enkel op de content
     - De maximumbreedte voor alle afbeeldingen is 100%
     - Het gebruikte lettertype is Verdana of Arial. Het is sowieso een schreefloos lettertype.
-    - De line-heigt is 2.
+    - De line-heigth is 2.
     - De tekstkleur is dimgray
-
+- De weergave verandert wanneer de breedte van het scherm groter wordt dan 768px.
+- Maak uitsluitend gebruik van float–layout om de website te maken.
+- Voeg eerst de specifieke stijlregels voor de smartphone / tablet weergave (screen breedte < 769px) toe. 
 ### Algemene opmaakkenmerken
 
 - De achtergrondafbeelding is background.gif
@@ -64,26 +53,24 @@ In deze oefening moet je zelf de mobile first responsive website maken die in de
     - Prijslijst 
     - Contact
 
+
 ### Opmaakkenmerken van de smartphone / tablet weergave
 
 - Het logo is `logo-esthetiek-beaute.jpg`. Het logo is gecentreerd en heeft afgeronde hoeken.
-- Het menu neemt 90% van de volledige breedte in en heeft afgeronde hoeken. De menu items nemen ook 90% van de volledige breedte in en hebben een oranje tekstkleur. Als over een menu item gehovered wordt, komt de tekst in vet
+- Het menu neemt 90% van de volledige breedte in en heeft afgeronde hoeken en is gecentreerd.
+- Zorg ervoor dat het menu enkel zichtbaar wordt bij het hoveren over de menubalk, de menuitems worden over de onderliggende tekst weergegeven (zie figuur hieronder). De menubalk bevat enkel het hamburger icoon (menu-icon.png) en de tekst **MENU**. Tip om de menuitems op de correcte plaats weer te geven (boven de onderstaande tekst): gebruik de eigenschap **position**. 
+- De menu items nemen ook 90% van de volledige breedte in en hebben een oranje tekstkleur. Als over een menu item gehovered wordt, wordt de tekst in het vet weergegeven.
 
     ![](images/rwd04.png)
 
-- Zoals de te zien op de voorbeelden, is er een kleine doorzichtige rand rondom de elementen. De inhoud van de elementen staat niet tegen de rand geplakt
-- Welkom bij Esthetiek Beauté / Weet wat uw huid nodig heeft … / Beauté cadeaubon zijn `H2` elementen met een oranje kleur en 20px groot
-- De inhoud van de footer is gecentreerd
 
 ### Opmaakkenmerken van de desktop weergave
 
-- De maximum breedte van de webpagina is 900px. De inhoud van de webpagina is gecentreerd
-- Maak gebruik van margin-left om de navigatiebalk rechts te plaatsen. Maak gebruik van een percentage.
--  De links hebben een grijze `#666` tekstkleur.
+- De maximum breedte van de webpagina is 900px. De inhoud van de header en main zijn gecentreerd.
+- De links hebben een grijze `#666` tekstkleur.
 - Als over een menu – item gehovered wordt, komt de tekst in het zwart te staan.
-- De link van de actieve pagina staat in oranje
-- Het is belangrijk dat alles netjes uitgelijnd staat.
-    - Het linkse gedeelte is 30% breed, het rechtse is 70% van de totale breedte.
+- De link van de actieve pagina is oranje.
+- Het linkse gedeelte is 30% breed, het rechtse is 70% van de totale breedte.
 
 ### **Smartphone en tablet weergave**
 <img src="images/rwd06.png" alt="Mobile" width="50%" >
@@ -95,7 +82,7 @@ In deze oefening moet je zelf de mobile first responsive website maken die in de
 
 ## OEFENING 3: Yoko.
 
-We starten met het resultaat uit vorie les, dit is de desktop view (vanaf 992px)
+We starten met het resultaat uit vorige les, dit is de desktop view (vanaf 992px)
 
 ![](images/rwd08.png)
 
