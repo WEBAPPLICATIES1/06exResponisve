@@ -4,6 +4,10 @@
 - Open de map **Yoko**
 - Activeer Live Server
 
+## Online voorbeeld
+Hoe de website er uiteindelijk moet uitzien, vind je <a href="https://webapplicaties1.github.io/06solResponsive/Yoko/">hier</a>, om deze in smartphone of tablet versie te bekijken kan je het browser venster verkleinen.
+
+## Opdracht
 We starten met het resultaat uit vorige les, dit is de desktop view (vanaf 992px)
 
 ![](images/rwd08.png)

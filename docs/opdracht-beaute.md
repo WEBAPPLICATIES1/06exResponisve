@@ -4,7 +4,10 @@
 - Open de map **Beauté**
 - Activeer Live Server
 
-## Gegeven
+## Online voorbeeld
+Hoe de website er uiteindelijk moet uitzien, vind je <a href="https://webapplicaties1.github.io/06solResponsive/beaute/">hier</a>, om deze in smartphone of tablet versie te bekijken kan je het browser venster verkleinen.
+
+## Opdracht
 Het project bevat reeds de pagina index.html en de volgende mappen:
 - css: bevat het bestand beaute.css.
 - images: bevat de afbeeldingen

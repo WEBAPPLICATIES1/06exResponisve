@@ -4,8 +4,29 @@
 3. Ga nu naar Visual Studio Code en open deze map.
 
 ## Oefeningen
-| Oefening                                | Onderwerp        |
-|-----------------------------------------|------------------|
-| [01 - Cnockaert](opdracht-cnockaert.md) | Garage Cnockaert |
-| [02 - Beauté](opdracht-beaute.md)       | Schoonheidssalon |
-| [03 - Yoko](opdracht-yoko.md)           | Yoko's Kitchen   |
+<table>
+    <thead>
+        <tr>
+            <th>Oefening</th>
+            <th>Oplossing</th>
+            <th>Online</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="opdracht-cnockaert.md">01 - Cnockaert</a></td>
+            <td><a href="https://github.com/WEBAPPLICATIES1/06solResponsive/tree/master/Cnockaert">Code</a></td>
+            <td><a href="https://webapplicaties1.github.io/06solResponsive/Cnockaert/">Voorbeeld</a></td>
+        </tr>
+        <tr>
+            <td><a href="opdracht-beaute.md">02 - Beaute</a></td>
+            <td><a href="https://github.com/WEBAPPLICATIES1/06solResponsive/tree/master/beaute">Code</a></td>
+            <td><a href="https://webapplicaties1.github.io/06solResponsive/beaute/">Voorbeeld</a></td>
+        </tr>
+        <tr>
+            <td><a href="opdracht-cnockaert.md">03 - Yoko</a></td>
+            <td><a href="https://github.com/WEBAPPLICATIES1/06solResponsive/tree/master/Yoko">Code</a></td>
+            <td><a href="https://webapplicaties1.github.io/06solResponsive/Yoko/">Voorbeeld</a></td>
+        </tr>
+    </tbody>
+</table>
