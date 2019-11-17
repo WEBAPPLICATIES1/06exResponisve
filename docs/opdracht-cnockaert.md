@@ -4,12 +4,15 @@
 - Open de map **Cnockaert**
 - Activeer Live Server
 
-Zorg ervoor dat deze webpagina mobile-first responsive is. De body van de index.html is definitief en mag niet gewijzigd worden.
-Gebruik waar nodig enkel relatieve eenheden. Zorg ervoor dat voor bepaalde elementen de box-sizing de waarde border-box (width = content+padding+border) heeft. 
-
-- Pas de css aan in cnockaert.css. Voeg de geapste stijlregels toe zodat de webpagina correct wordt weergegeven op de kleinste schermgrootte: smartphone / tablet. 
-- Voeg daarna de stijlregels toe om de correcte weergave te hebben op schermen met een breedte groter dan 990px.
+### Opdracht
+- Voeg de gepaste stijlregels aan `cnockaert.css` toe zodat de webpagina correct wordt weergegeven op de kleinste schermgrootte: smartphone / tablet (mobile-first)
+- Voeg daarna de stijlregels toe om de correcte weergave te hebben op schermen met een breedte groter dan `990px`.
 - Maak **uitsluitend** gebruik van **float layout**.
+
+### Tips
+- Om het makkelijker te maken voor jezelf, zet je best voor alle elementen `box-sizing: border-box` aan.
+- Gebruik steeds relatieve eenheden zoals `em`, `rem`, `%`, probeer zo weinig mogelijk `px` te gebruiken.
+- Zet de website eerst in een mobiel vriendelijke vorm, met andere woorden tracht steeds te werken vanuit een tablet en/of smartphone perspectief. Nadien voeg je de `media queries` toe voor de desktop versie.
 
 ### **Smartphone en tablet weergave**
 <img src="images/rwd01.png" alt="Mobile" width="50%" style="border:1px solid black">
