@@ -24,7 +24,7 @@
             <td><a href="https://webapplicaties1.github.io/06solResponsive/beaute/">Voorbeeld</a></td>
         </tr>
         <tr>
-            <td><a href="opdracht-cnockaert.md">03 - Yoko</a></td>
+            <td><a href="opdracht-yoko.md">03 - Yoko</a></td>
             <td><a href="https://github.com/WEBAPPLICATIES1/06solResponsive/tree/master/Yoko">Code</a></td>
             <td><a href="https://webapplicaties1.github.io/06solResponsive/Yoko/">Voorbeeld</a></td>
         </tr>
